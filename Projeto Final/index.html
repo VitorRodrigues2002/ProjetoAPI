@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
+    <title>Play Music</title>
+</head>
+<body>
+    <header>
+        <div class="container bkg">
+            <form class="example" action="pesquisa.html">
+                <nav class="navbar navbar-expand-md navbar-light px-0">
+                        <a class="navbar-brand" href="#">
+                            <h1>
+                                <span class="cor-principal">Play</span>Music
+                            </h1>
+                        </a>
+                            <input type="text" placeholder="Pesquisa..." name="Pesquisa">
+                            <button type="submit"><i class="fa fa-search" ></i></button>
+                        </form>
+                        <button  class="navbar-toggler"type="button"data-toggle="collapse"data-target="#navbarNavAltMarkup"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">Principal</a>
+                            </li>   
+                                <li class="divider py-2 d-nome d-md-block cor-principal">/</li>
+                            <li class="nav-item">
+                                <a href="playlist.html" class="nav-link">Playlist</a>    
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#reservationmodal" >Login</button>    
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+               
+            <div class="row public-banner d-nome d-md-flex">
+                <img class="w-150 h-900" src="img/pauta.jpg" width="1140" height="300" alt="concerto">
+            </div>    
+        </div>
+    </header>
+    <div class="container">
+        <div class="carousel_fitment">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="imagens_carousel_fitment" src="img/ferando.jpg" class="d-block w-100" alt="1">
+                </div>
+                <div class="carousel-item">
+                <img class="imagens_carousel_fitment" src="img/pixote.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img class="imagens_carousel_fitment" src="img/turma.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+   <footer>
+       <div class="container px-0">
+           <div class="col-lg-12 text-center">
+                <h3>Play Music</h3>
+                    <p>Pode ouvir musica a toda a hora e onde quiser</p>
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                <p>&copy; 2020 Play Music</p>    
+           </div>
+       </div>
+   </footer> 
+
+   <div class="modal fade" tabindex="-1" role="dialog" id="reservationmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title cor-principal">Iniciar Sessão</h5>
+                    <button type="button" class="close" data-dismiss="modal" arialabel="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Password:</label>
+                            <input type="password" id="pwd" name="pwd" minlength="8">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" datadismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   <style>
+    form.example input[type=text] {
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        border: 0px solid grey;
+        background: #f1f1f1;
+        align-self: center;
+    }
+
+    form.example button {
+        width: 70px;
+        height: 40px;
+        background: black;
+        color: white;
+        float: right;
+        font-size: 17px;
+        border: 0px solid black;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    form.example button:hover {
+        background: #f39f28;
+  }
+
+
+    
+    .container .navbar .collapse .btn-outline-danger{
+        background-color:#f39f28 ;
+        border-color: #f39f28;
+        color:white;
+    }    
+   
+
+
+    .modal-footer .btn-outline-secondary{
+        
+        border-color: gray;
+    }  
+
+    .modal-footer .btn-danger{
+        background-color: #f39f28;
+        border-color: #f39f28;
+    }  
+
+    .home-food img{
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    #carouselExampleIndicators{
+        color: black;
+        height: 210px;
+    }
+
+    .carousel-caption{
+        color: black;
+        top: 0;
+        padding: 60px 130px;
+    }
+
+
+    body{
+        background:#f8f9fa;
+    }
+
+    .cor-principal{
+        color: #f39f28;
+    }
+
+    h1{
+        font-weight: 900;
+        height: 36px;
+        margin: 0;
+        line-height: 0.8;
+    }
+
+    .bkg{
+        background-color: white;
+    }
+
+    footer{
+        color: white;
+    }
+
+    footer .container .col-lg-12{
+        background-color: #f39f28;
+        padding: 60px;
+    }
+
+    .social-media a {
+        padding: 0 10px;
+        color: white;
+        text-decoration:none;
+    }
+
+    .social-media a:hover{
+        color: grey;
+    }
+   </style>
+
+
+
+
+
+    
+
+
+</body>
+</html>
